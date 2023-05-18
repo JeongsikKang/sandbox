@@ -8,7 +8,7 @@ metadata:
     - flask
   annotations:
     # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
-    backstage.io/definition-at-location: 'url:http://172.19.181.215:8080/docs'
+    backstage.io/definition-at-location: 'url:http://0.0.0.0:8080/docs'
 spec:
   type: openapi
   lifecycle: production
