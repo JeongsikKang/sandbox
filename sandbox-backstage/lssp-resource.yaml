@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: logis-meta-db
+  description: Stores logis details
+spec:
+  type: database
+  lifecycle: production
+  owner: Tech Foundation Team
+  system: logis

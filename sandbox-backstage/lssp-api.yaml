@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: logis-api
+  description: The Logis API
+  tags:
+    - python
+    - flask
+  annotations:
+    # The annotation is deprecated, we use placeholders (see below) instead, remove it later.
+    backstage.io/definition-at-location: 'url:http://172.19.181.215:8080/docs'
+spec:
+  type: openapi
+  lifecycle: production
+  owner: tech foundation team
+  dependsOn: ['resource:logis-meta-db']

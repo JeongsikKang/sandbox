@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: logis-portal
+  description: The Logis Web
+  tags:
+    - python
+    - flask
+spec:
+  type: website
+  lifecycle: production
+  owner: Tech Foundation Team
+  system: logis
+  dependsOn: ['api:logis-portal-api']
